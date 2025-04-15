@@ -190,3 +190,73 @@
     box-shadow: 0 0 15px rgba(72, 20, 58, 0.5);
     background-color: rgba(72, 20, 58, 0.05);
 }
+
+/*Mohammad*/
+/*Responsive design */
+@media (max-width: 768px) {
+    .pie-card {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pie-image {
+        flex: none;
+        margin-bottom: 15px;
+    }
+
+    .pie-image img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .pie-info {
+        padding-left: 0;
+    }
+
+    .scroll-btn {
+        display: none; /* Hide arrows on small screens */
+    }
+
+    .pies-scroll-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .pies-wrapper {
+        gap: 15px;
+        padding: 10px 5px;
+    }
+
+    .quiz-section h3 {
+        font-size: 20px;
+    }
+
+    .quiz-section p {
+        font-size: 16px;
+    }
+
+    .quiz-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .pie-card {
+        width: 420px;
+    }
+
+    .pie-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .quiz-section {
+        max-width: 90%;
+    }
+}
+
+
